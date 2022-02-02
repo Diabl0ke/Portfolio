@@ -234,7 +234,6 @@ nav { display: none;}
             "subtitle img"
             "text img";
             grid-column-gap: 2em;
-        
     }
     
     .section__title--about{
@@ -244,9 +243,16 @@ nav { display: none;}
     .section__subtitle--about{
         grid-column: 1 / -1;
         grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
     }
     
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
