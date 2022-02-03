@@ -385,11 +385,13 @@ header {
 .portfolio{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .portfolio__item{
     background: var(--clr-accent);
-    overflow: hidden;
+    overflow: hidden;        
 }
 
 .portfolio__img{
