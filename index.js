@@ -22,23 +22,23 @@ sr.reveal('.intro', {
 });
 
 sr.reveal ('h1', {
-    delay: 1000
+    delay: 500
 })
 
 sr.reveal ('.my-services', {
     origin:'bottom',
     distance:'200px',
-    delay: 1500,
+    delay: 750,
 })
 
 sr.reveal ('.about-me', {
     origin:'left',
     distance:'200px',
-    delay: 1000,
+    delay: 750,
 })
 
 sr.reveal ('.my-work', {
     origin:'right',
     distance:'200px',
-    delay: 1000,
+    delay: 750,
 })
