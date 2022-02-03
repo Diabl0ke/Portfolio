@@ -10,3 +10,35 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+// Animation scroll
+
+const sr = ScrollReveal();
+
+sr.reveal('.intro', {
+    origin:'top',
+    distance:'50px',
+    duration : 2000,
+});
+
+sr.reveal ('h1', {
+    delay: 1000
+})
+
+sr.reveal ('.my-services', {
+    origin:'bottom',
+    distance:'200px',
+    delay: 1500,
+})
+
+sr.reveal ('.about-me', {
+    origin:'left',
+    distance:'200px',
+    delay: 1000,
+})
+
+sr.reveal ('.my-work', {
+    origin:'right',
+    distance:'200px',
+    delay: 1000,
+})
