@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Benjamin Lancaster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/dev-icon-6.png" alt="Un logo" />
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My soft skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The<strong>Weather app</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> Shall I take an umbrella? </p>
+        <img src="img/app_meteo.PNG" alt="Une photo de mon app meteo" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Here is a small project of mine, just a simple weather app so that you know if you need to take an umbrella or not. It uses some javascrpt, and an API, it's that simple !</p>
+        <!-- <img src="/img/quizz_capture.PNG" alt=""> -->
+        <p>As you can see, you have the current weather, how it is going to look like the rest of the day temperature wise, and weather forecast on a week.</p>
+        <p>Try it out using this link : <a href="https://diabl0ke.github.io/app_meteo/" class="btnn" target="blank"> https://diabl0ke.github.io/app_meteo/ </a> </p>
+    </div>
+
+
+
+    <footer class="footer">
+        <p class="footer__link"> Presented by Benjamin Lancaster</p>
+        <ul class="social-list">
+            <li class="social-list__item"><a  href="mailto:benjaminlancaster89@gmail.com" class="footer__link social-list__item">
+                <i class="fas fa-envelope-open-text"></i>
+            </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="/img/Benjamin_Lancaster_CV.jpg" download>
+                    <i class="far fa-address-card"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a href="tel:+33677674340">
+                    <i class="fas fa-mobile-alt"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/benjamin-lancaster-614837b4" target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Diabl0ke" target="blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
